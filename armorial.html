@@ -1,0 +1,48 @@
+---
+title: Armorial of the Republic of Malta
+description: Arms and symbols of the modern Republic of Malta
+layout: base
+---
+
+<div class="page-header clear-filter page-header-small" filter-color="orange">
+    <div class="page-header-image" data-parallax="true" style="background-image:url('/assets/img/identity/valetta-malta-doma-more.jpg');"></div>
+    <div class="container">
+        <h1>{{ page.title }}</h1>
+    </div>
+</div>
+<div class="section">
+    <div class="container">
+        <div class="row">
+            <h3 class="title">Personal</h4>
+<div class="row">
+            <p>
+                This section of the Armorial represents a collection
+                of heraldic emblems that are intimately associated
+                with the individual identities within the House of
+                Basu-Howard. Each emblem here has been personally
+                adopted by members of the house, reflecting their
+                achievements, interests, and the personal ethos they
+                bring to the family legacy.  These symbols are not
+                just identity markers but are a living narrative of
+                each member’s journey and contributions to the
+                house. As each member selects or designs their
+                heraldic symbol, they add to the evolving story of
+                our lineage, embedding their personal touch within
+                our shared heritage.
+            </p>
+            {{ site.armorial }}
+            {% for arms in site.armorial %}
+            <div class="col-lg-4 col-sm-12">
+                <div class="card p-1">
+                    <a href="{{ arms.url | relative_url }}">
+                        <img class="card-img-top p-3" src="{{ arms.image.escutcheon | relative_url }}" alt="Image of the arms" />
+                        <div class="card-body">
+                            <h5 class="card-title">{{ arms.name | markdownify | remove: '<p>' | remove: '</p>' }}</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

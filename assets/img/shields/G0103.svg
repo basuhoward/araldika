@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   viewBox="38.381847 65.51563 380.73413 455.95239"
+   width="380.73413"
+   height="455.95239"
+   id="svg10"
+   sodipodi:docname="G0103.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview10"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.2959245"
+     inkscape:cx="181.33773"
+     inkscape:cy="216.83362"
+     inkscape:window-width="3200"
+     inkscape:window-height="1333"
+     inkscape:window-x="1728"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="Chevronels,_3_(1)_Layer_3" />
+  <defs
+     id="defs1">
+    <clipPath
+       id="artboard_clip_path">
+      <path
+         d="M 38.381847,65.51563 H 402.53773 c 0,0 0.0629,42.72533 0.0629,145.76877 0,103.04345 -85.8074,223.3446 -182.20588,290.7312 C 123.9309,434.629 38.437823,314.8305 38.437823,211.2844 c 0,-103.5461 -0.05598,-145.76877 -0.05598,-145.76877 z"
+         id="path1" />
+    </clipPath>
+  </defs>
+  <g
+     id="Chevronels,_3_(1)"
+     stroke-opacity="1"
+     fill="none"
+     fill-opacity="1"
+     stroke="none"
+     stroke-dasharray="none"
+     style="fill:#fee46e;fill-opacity:1;stroke:#101010;stroke-width:3.65187;stroke-dasharray:none;stroke-opacity:1"
+     inkscape:label="Captain Katharine Clare RN"
+     transform="matrix(1.0349606,0,0,1.0349535,0.55042489,-0.40024324)">
+    <title
+       id="title1">Chevronels, 3 (1)</title>
+    <path
+       d="M 38.381847,65.51563 H 402.53773 c 0,0 0.0629,42.72533 0.0629,145.76877 0,103.04345 -85.8074,223.3446 -182.20588,290.7312 C 123.9309,434.629 38.437823,314.8305 38.437823,211.2844 c 0,-103.5461 -0.05598,-145.76877 -0.05598,-145.76877 z"
+       id="path11"
+       style="fill:#fee46e;fill-opacity:1;stroke:#101010;stroke-width:3.65187;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:label="Escutcheon" />
+    <g
+       id="Chevronels,_3_(1)_Layer_3"
+       clip-path="none"
+       style="display:inline;fill:#fee46e;fill-opacity:1;stroke:#101010;stroke-width:3.65187;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:label="Chevrons">
+      <title
+         id="title2">Layer 3</title>
+      <path
+         d="M 55.15,293.36497 220.5,134.47396 385.67773,293.19944 c 4.98991,-13.61864 8.90507,-27.25144 11.59001,-40.75338 L 220.5,82.58333 43.607916,252.56557 C 46.28099,266.09485 50.17962,279.7419 55.15001,293.365 Z M 86.58037,357.9436 220.5,229.2552 354.1935,357.7263 c 6.81156,-11.20653 13.02766,-22.59014 18.55325,-34.06213 L 220.5,177.36458 68.04976,323.85974 c 5.51688,11.4844 11.72526,22.87473 18.53062,34.08386 z m 40.21978,56.13256 93.69985,-90.0397 93.4719,89.82064 c 8.0515,-9.68277 15.72417,-19.65615 22.9397,-29.84703 L 220.5,272.14583 103.85569,384.23373 c 7.21501,10.19162 14.88916,20.16307 22.94448,29.84244 z"
+         fill="#f3f3f3"
+         id="path2"
+         style="fill:#871717;fill-opacity:1;stroke:#101010;stroke-width:0.91296725;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>
