@@ -20,4 +20,12 @@
     }
 
     p { font-weight: 400; }
+
+    .name {
+        font-variant: small-caps;
+    }
+
+    .bg-primary {
+        background-color: #871717 !important;
+    }
 }

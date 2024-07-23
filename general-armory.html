@@ -1,0 +1,62 @@
+---
+title: General Armory of the Republic of Malta
+description: Arms and symbols of the modern Republic of Malta
+layout: default
+image: /assets/img/identity/valetta-malta-doma-more.jpg
+---
+
+<div class="container">
+    <div class="row">
+        {% comment %} Creates an array of names and a mapping of names to arms {% endcomment %}
+        {% assign sort_names = "" | split: "" %}
+
+        {% comment %} Creates an array of names and a mapping of names to arms {% endcomment %}
+        {% for arms in site.data.arms %}
+        {% assign sort_names = sort_names | push: arms[1].sort_name %}
+        {% endfor %}
+
+        {% comment %} Sorts the names naturally {% endcomment %}
+        {% assign sorted_names = sort_names | sort_natural %}
+
+        {% assign current_first_letter = "!" %}
+
+        {% comment %} Loops through sorted names and displays information {% endcomment %}
+        {% for name in sorted_names %}
+        {% assign first_letter = name | slice: 0, 1 %}
+        {% if current_first_letter != first_letter %}
+        {% assign current_first_letter = first_letter %}
+        <h1>{{ current_first_letter }}</h1>
+        {% endif %}
+
+        {% for arms in site.data.arms %}
+        {% if arms[1].sort_name == name %}
+        {% assign named_arms = arms[1] %}
+        <div class="card">
+            <div class="card-body mt-n4">
+                <h4 class="card-title">{{ named_arms.name }}</h4>
+                <h6 class="card-subtitle mb-2 text-muted">
+                    {{ named_arms.grantee }},
+                    {{ named_arms.date | date: "%Y" }},{% if named_arms.posthumous %}<sup>&dagger;</sup>{% endif %}
+                    {{ named_arms.country }}
+                </h6>
+                <p>
+                    {% if named_arms.blazon.arms %}
+                    {{ named_arms.blazon.arms.en }}
+                    {% endif %}
+                    {% if named_arms.blazon.crest %}
+                    <em>Crest</em> &mdash; {{ named_arms.blazon.crest.en }}
+                    {% endif %}
+                    {% if named_arms.blazon.supporters %}
+                    <em>Supporters</em> &mdash; {{ named_arms.blazon.supporters.en }}
+                    {% endif %}
+                    {% if named_arms.blazon.motto %}
+                    <em>Motto</em> &mdash; {{ named_arms.blazon.motto.text }}.
+                    {% endif %}
+                </p>
+            </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+        {% endfor %}
+    </div>
+</div>

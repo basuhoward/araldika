@@ -22,7 +22,8 @@ blazon:
       ta' lewn Iswed.
   motto:
     text: Ir-rieda biss tmexxi l-qalb
-    translations:
+    language: Maltese
+    translation:
       en: Only the will moves the heart
       mt: Ir-rieda biss tmexxi l-qalb
 ordinary:

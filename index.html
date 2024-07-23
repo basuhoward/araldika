@@ -10,8 +10,25 @@ navbar: false
       </div>
       <div class="container">
         <h1><span style="font-weight: bold">{{ site.title }}</span> {{ site.subtitle  }}</h1>
-
-
+        <div class="row">
+          <div class="card col-4 mx-2">
+            <a href="{{ '/general-armory' | relative_url }}">
+              <div class="card-body mt-n3 text-black">
+                <h4 class="card-title">General Armory</h4>
+                <h6>All arms granted by the Chief Herald of Malta</h6>
+              </div>
+            </a>
+          </div>
+          <div class="card col-4 mx-2">
+            <a href="{{ '/mottoes' | relative_url }}">
+              <div class="card-body mt-n3 text-black">
+                <h4 class="card-title">Mottoes</h4>
+                <h6>Ordinary of Mottoes</h6>
+              </div>
+          </div>
+          </a>
+        </div>
+        </a>
       </div>
       {% include footer.html %}
     </div>
