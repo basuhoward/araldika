@@ -1,0 +1,34 @@
+id: R0001
+grantee: Dr. Charles Anthony Gauci
+name: Gauci
+sort_name: Gauci, Charles
+country: MT
+date: 2022-01-24
+blazon:
+  arms:
+    en: >-
+      Argent, on a base Vert a castle triple towered Sable masoned of
+      the First, windows and portcullis closed Gules, in chief between
+      two mullets of the Last a rod of Aesculapius proper all within a
+      bordure engrailed Sable for difference.
+  crest:
+    en: >-
+      The Arms are surmounted by the Coronet of a Georgian Count placed
+      above the shield. For a crest, issuant from a crest coronet of
+      five leaves Or, placed upon a wreath Argent and Vert, a dexter arm
+      in armour embowed holding in the hand proper a mullet Gules
+  supporters:
+    en: >-
+      The Arms are borne on a double headed eagle displayed Sable,
+      beaked and membered proper langued Gules holding in its claws an
+      escroll with the motto.
+  motto:
+    text: In fide honor meus
+    language: Latin
+    translation:
+      en: In faith is my honor
+class: personal
+type: registration
+source:
+  grantor: Chronicler of Arms of Castile and León
+  date: 2015-02-28

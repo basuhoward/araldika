@@ -2,7 +2,7 @@
 title: General Armory of the Republic of Malta
 description: Arms and symbols of the modern Republic of Malta
 layout: default
-image: /assets/img/identity/valetta-malta-doma-more.jpg
+image: /assets/img/identity/general-armory.webp
 ---
 
 <div class="container">
@@ -36,8 +36,8 @@ image: /assets/img/identity/valetta-malta-doma-more.jpg
                 <h4 class="card-title">{{ named_arms.name }}</h4>
                 <h6 class="card-subtitle mb-2 text-muted">
                     {{ named_arms.grantee }},
-                    {{ named_arms.date | date: "%Y" }},{% if named_arms.posthumous %}<sup>&dagger;</sup>{% endif %}
-                    {{ named_arms.country }}
+                    {% if named_arms.country %}{{ named_arms.country }},{% endif %}
+                    {{ named_arms.date | date: "%Y" }}{% if named_arms.posthumous %}<sup>&dagger;</sup>{% endif %}
                 </h6>
                 <p>
                     {% if named_arms.blazon.arms %}
@@ -49,10 +49,48 @@ image: /assets/img/identity/valetta-malta-doma-more.jpg
                     {% if named_arms.blazon.supporters %}
                     <em>Supporters</em> &mdash; {{ named_arms.blazon.supporters.en }}
                     {% endif %}
+                    {% if named_arms.blazon.compartment %}
+                    <em>Compartment</em> &mdash; {{ named_arms.blazon.compartment.en }}
+                    {% endif %}
+  
                     {% if named_arms.blazon.motto %}
-                    <em>Motto</em> &mdash; {{ named_arms.blazon.motto.text }}.
+                        {% assign motto = named_arms.blazon.motto %}
+                        {% if motto.first.text %}
+                            {% for item in motto %}
+                                <em>{% if item.type %}{{ item.type }}{% else %}Motto{% endif %}</em>
+                                &mdash;
+                                {{ item.text }} {% if item.origin %}({{ item.origin }}){% endif %}.
+                            {% endfor %}
+                        {% else %}
+                        <em>Motto</em> &mdash; {{ motto.text }}.
+                        {% endif %}
+                    {% endif %}
+
+                {% if named_arms.blazon.decorations %}
+                <em>Decorations</em> &mdash; {{ named_arms.blazon.decorations.en }}
+                {% endif %}
+                </p>
+                <p>
+                    {% if named_arms.blazon.badge %}
+                    <em>Badge</em> &mdash; {{ named_arms.blazon.badge.en }}
                     {% endif %}
                 </p>
+                <p>
+                    {% if named_arms.blazon.standard %}
+                    <em>Standard</em> &mdash; {{ named_arms.blazon.standard.en }}
+                    {% endif %}
+                </p>
+                <p>
+                    {% if named_arms.blazon.banner %}
+                    <em>Banner</em> &mdash; {{ named_arms.blazon.banner.en }}
+                    {% endif %}
+                </p>
+                <p>
+                    {% if named_arms.blazon.gonfalon %}
+                    <em>Gonfalon</em> &mdash; {{ named_arms.blazon.gonfalon.en }}
+                    {% endif %}
+                </p>
+
             </div>
         </div>
         {% endif %}

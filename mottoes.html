@@ -1,59 +1,75 @@
 ---
 title: Ordinary of Mottoes
 description: Mottoes of the modern Republic of Malta
-layout: base
+layout: default
+image: /assets/img/identity/mottoes.webp
 ---
+{% comment %}
+TODO Okay, make sure I add warcries.
+{% endcomment %}
 
-<div class="page-header clear-filter page-header-small" filter-color="orange">
-    <div class="page-header-image" data-parallax="true" style="background-image:url('/assets/img/identity/valetta-malta-doma-more.jpg');"></div>
-    <div class="container">
-        <h1>{{ page.title }}</h1>
-    </div>
-</div>
-<div class="section">
-    <div class="container">
-        <div class="row">
-            {% comment %} Creates an array of names and a mapping of names to arms {% endcomment %}
-            {% assign sort_mottoes = "" | split: "" %}
+<div class="container">
+    <div class="row">
+        {% comment %} Creates an array of names and a mapping of names to arms {% endcomment %}
+        {% assign sort_mottoes = "" | split: "" %}
 
-            {% comment %} Creates an array of names and a mapping of names to arms {% endcomment %}
-            {% for arms in site.data.arms %}
-            {% if arms[1].blazon.motto.text %}
-            {% assign sort_mottoes = sort_mottoes | push: arms[1].blazon.motto.text %}
-            {% endif %}
+        {% comment %} Creates an array of names and a mapping of names to arms {% endcomment %}
+        {% for arms in site.data.arms %}
+        {% if arms[1].blazon.motto.text %}
+            {% capture motto_info %}{{ arms[1].blazon.motto.text }};;{{ arms[1].blazon.motto.language }};;{{ arms[1].blazon.motto.translation.en }};;{{ arms[1].grantee }};;{{ arms[1].date }};;{{ arms[1].country }};;{{ arms[1].posthumous }};;Motto{% endcapture %}
+            {% assign sort_mottoes = sort_mottoes | push: motto_info %}
+        {% else %}
+            {% for m in arms[1].blazon.motto %}
+                {% if m.type %}
+                    {% assign type = m.type %}
+                {% else %}
+                    {% assign type = "Motto" %}
+                {% endif %}
+                {% capture motto_info %}{{ m.text }};;{{ m.language }};;{{ m.translation.en }};;{{ arms[1].grantee }};;{{ arms[1].date }};;{{ arms[1].country }};;{{ arms[1].posthumous }};;{{type}}{% endcapture %}
+                {% assign sort_mottoes = sort_mottoes | push: motto_info %}
             {% endfor %}
+        {% endif %}
+        {% endfor %}
 
-            {% comment %} Sorts the names naturally {% endcomment %}
-            {% assign sorted_mottoes = sort_mottoes | sort_natural %}
+        {% comment %} Sorts the names naturally {% endcomment %}
+        {% assign sorted_mottoes = sort_mottoes | sort_natural %}
 
-            {% assign current_first_letter = "" %}
+        {% assign current_first_letter = "" %}
 
-            {% comment %} Loops through sorted mottoes and displays information {% endcomment %}
-            {% for motto in sorted_mottoes %}
-            {% assign first_letter = motto | slice: 0, 1 %}
-            {% if current_first_letter != first_letter %}
-            {% assign current_first_letter = first_letter %}
-            <h1>{{ current_first_letter }}</h1>
-            {% endif %}
-            
-            {% for arms in site.data.arms %}
-            {% if arms[1].blazon.motto.text == motto %}
-            {% assign named_arms = arms[1] %}
-            <div class="card">
-                <div class="card-body mt-n4">
-                    <h4 class="card-title">{{ motto }}</h4>
-                    <h6 class="card-subtitle mb-2 text-muted">
-                        {{ named_arms.grantee }}, {{ named_arms.date | date: "%Y" }}, {{ named_arms.country }}
-                    </h6>
-                    <p>
-                        <em>{{ named_arms.blazon.motto.language }}</em>.
-                        {{ named_arms.blazon.motto.translation.en }}.
-                    </p>
-                </div>
+        {% comment %} Loops through sorted mottoes and displays information {% endcomment %}
+        {% for motto_info in sorted_mottoes %}
+        {% assign motto_info_parts = motto_info | split: ";;" %}
+        {% assign motto_text = motto_info_parts[0] %}
+        {% assign motto_language = motto_info_parts[1] %}
+        {% assign motto_translation = motto_info_parts[2] %}
+        {% assign motto_grantee = motto_info_parts[3] %}
+        {% assign motto_date = motto_info_parts[4] %}
+        {% assign motto_country = motto_info_parts[5] %}
+        {% assign motto_posthumous = motto_info_parts[6] %}
+        {% assign motto_type = motto_info_parts[7] %}
+
+        {% assign first_letter = motto_text | slice: 0, 1 %}
+        {% if current_first_letter != first_letter %}
+        {% assign current_first_letter = first_letter %}
+        <h1>{{ current_first_letter }}</h1>
+        {% endif %}
+
+        <div class="card">
+            <div class="card-body mt-n4">
+                <h4 class="card-title">{{ motto_text }}</h4>
+                <h6 class="card-subtitle mb-2 text-muted">
+                    {{ motto_grantee }},
+                    {{ motto_country }},
+                    {{ motto_date | date: "%Y" }}{% if motto_posthumous == "true" %}<sup>&dagger;</sup>{% endif %}
+                </h6>
+                <p>
+                    <em>{% unless motto_type == "Motto" %}{{ motto_type }}: {% endunless %}{{ motto_language }}</em>.
+                    {% unless motto_language == "English" %}
+                    {{ motto_translation }}.
+                    {% endunless %}
+                </p>
             </div>
-            {% endif %}
-            {% endfor %}
-            {% endfor %}
         </div>
+        {% endfor %}
     </div>
 </div>

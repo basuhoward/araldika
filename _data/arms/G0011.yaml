@@ -1,0 +1,36 @@
+id: G0011
+grantee: Dr. Fernando Manuel Marán Bié
+name: Marán Bié
+sort_name: Marán Bié, Fernando Manuel
+country: UY
+date: 2022-01-24
+blazon:
+  arms:
+    en: >-
+      Per fess Azure and Gules, in chief an open book Argent, bound Or,
+      charged with a mullet of the First, and in base between two apples
+      a tree all of the Fourth the whole within a bordure embattled of
+      the Same.
+  crest:
+    en: >-
+      On a Wreath Or, Azure and Gules, issuant from the flames of fire
+      Or and Gules a Pegasus Argent, with Mantling at dexter Azure
+      doubled Or, and at sinister, Gules doubled Or.
+  supporters:
+    en: >-
+      Two lions combatant guardant Or langued Gules, the one at dexter
+      holding in his lower forepaw a quill Argent the one at sinister
+      holding in his lower forepaw a rolled scroll Argent bearing a wax
+      seal Gules with the letters MB thereon.
+  motto:
+    - text: Officium otium cum dignitate
+      language: Latin
+      translation:
+        en: Duty and Leisure with Dignity
+    - text: Epimeleia heautou
+      type: Crie de guerre
+      language: Greek
+      translation:
+        en: Care of the self
+class: personal
+type: grant
