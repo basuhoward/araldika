@@ -1,0 +1,30 @@
+id: G0076
+slug: zangenberg-claes
+grantee: Claes Zangenberg
+name: Zangenberg
+sort_name: Zangenberg, Claes
+country: GB
+date: 2023-01-24
+blazon:
+  arms:
+    en: >-
+      Or, on a pile reversed Vert between two maunches Gules, a scroll Argent with seal pendant proper.
+  crest:
+    en: >-
+      Issuant from a baronial coronet above the shield is a helm befitting his degree with mantling Vert doubled Or, and for a crest, issuant from a wreath of the liveries, is a dexter hand couped holding a pair of open pliers proper.
+  supporters:
+    en: >-
+      Upon a compartment of rocky ground, at dexter an eagle with wings elevated and addorsed Sable, langued and legged Gules, and at sinister a Norseman.
+  badge:
+    en: >-
+      Argent, in chief above the peaks of three mountains, a pair of open pliers bend sinisterwise, all proper.
+  standard:
+    en: >-
+      Of four yards in length, fringed compony Or and Vert, split and rounded in the fly, the Arms in the hoist, the livery field per fess Or and Vert is split into three by two transverse bands bearing the motto "Aliter Cogita," the badge next to the hoist and in the fly with the crest centrally.
+  motto:
+    text: Aliter cogita
+    language: Latin
+    translation:
+      en: Think differently
+class: personal
+type: grant

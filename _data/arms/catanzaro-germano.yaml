@@ -1,0 +1,24 @@
+id: G0087
+slug: catanzaro-germano
+grantee: Professor Germano Catanzaro
+name: Catanzaro
+sort_name: Catanzaro, Germano
+country: IT
+date: 2023-04-25
+blazon:
+  arms:
+    en: >-
+      Azure chapé ployé Gules, upon a wavy base entwined around an anchor Or in pale a dolphin Argent, and in chief at both dexter and sinister a fleur-de-lys of the Third.
+  crest:
+    en: >-
+      Upon the shield is the Coronet of a noble, issuant from which is a helm befitting his degree with mantling Azure doubled Or, bearing for a crest, upon a wreath of the liveries and issuant from a ducal coronet, a demi unicorn rampant Argent.
+  coronet:
+    en: >-
+      The coronet of a noble.
+  motto:
+    text: Sat cito si sat bene
+    language: Latin
+    translation:
+      en: Soon enough if well enough
+class: personal
+type: grant

@@ -11,8 +11,9 @@ image: /assets/img/identity/general-armory.webp
         {% assign sort_names = "" | split: "" %}
 
         {% comment %} Creates an array of names and a mapping of names to arms {% endcomment %}
-        {% for arms in site.data.arms %}
-        {% assign sort_names = sort_names | push: arms[1].sort_name %}
+        {% assign armorial = site.data.arms %}
+        {% for arms in armorial %}
+            {% assign sort_names = sort_names | push: arms[1].sort_name %}
         {% endfor %}
 
         {% comment %} Sorts the names naturally {% endcomment %}
@@ -28,7 +29,8 @@ image: /assets/img/identity/general-armory.webp
         <h1>{{ current_first_letter }}</h1>
         {% endif %}
 
-        {% for arms in site.data.arms %}
+        {% assign armorial = site.data.arms %}
+        {% for arms in armorial %}
         {% if arms[1].sort_name == name %}
         {% assign named_arms = arms[1] %}
         <div class="card">
@@ -43,6 +45,9 @@ image: /assets/img/identity/general-armory.webp
                     {% if named_arms.blazon.arms %}
                     {{ named_arms.blazon.arms.en }}
                     {% endif %}
+                    {% if named_arms.blazon.coronet %}
+                    <em>Coronet</em> &mdash; {{ named_arms.blazon.coronet.en }}
+                    {% endif %}
                     {% if named_arms.blazon.crest %}
                     <em>Crest</em> &mdash; {{ named_arms.blazon.crest.en }}
                     {% endif %}
@@ -52,7 +57,13 @@ image: /assets/img/identity/general-armory.webp
                     {% if named_arms.blazon.compartment %}
                     <em>Compartment</em> &mdash; {{ named_arms.blazon.compartment.en }}
                     {% endif %}
-  
+                    {% if named_arms.blazon.decorations %}
+                    <em>Decorations</em> &mdash; {{ named_arms.blazon.decorations.en }}
+                    {% endif %}
+                    {% if named_arms.blazon.manteau %}
+                    <em>Manteau</em> &mdash; {{ named_arms.blazon.manteau.en }}
+                    {% endif %}
+
                     {% if named_arms.blazon.motto %}
                         {% assign motto = named_arms.blazon.motto %}
                         {% if motto.first.text %}
@@ -65,10 +76,6 @@ image: /assets/img/identity/general-armory.webp
                         <em>Motto</em> &mdash; {{ motto.text }}.
                         {% endif %}
                     {% endif %}
-
-                {% if named_arms.blazon.decorations %}
-                <em>Decorations</em> &mdash; {{ named_arms.blazon.decorations.en }}
-                {% endif %}
                 </p>
                 <p>
                     {% if named_arms.blazon.badge %}

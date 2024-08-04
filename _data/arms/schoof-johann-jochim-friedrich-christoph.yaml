@@ -1,0 +1,22 @@
+id: G0101
+slug: schoof-johann-jochim-friedrich-christoph
+grantee: Johann Jochim Friedrich Christoph Schoof
+name: Schoof
+sort_name: Schoof, Johann Jochim Friedrich Christoph
+country: DE
+date: 2023-01-05
+posthumous: true
+blazon:
+  arms:
+    en: >-
+      Tierced per chevron Or tapissé of thatch, bearing three rye garbs Vert all between in chief Azure two walnuts Or, in base Gules a walnut of the Same.
+  crest:
+    en: >-
+      Upon a helm befitting his degree, with mantling Vert doubled Or, is set for a crest on a wreath of the liveries an ox Sable langued Gules, horned Argent, holding aloft in his dexter hoof a quill and seated at a writing desk proper, draped over which is a scroll bearing the motto: AS 'N OSS.
+  motto:
+    text: As 'n oss
+    language: Dutch
+    translation:
+      en: Like an ox
+class: personal
+type: grant

@@ -28,4 +28,8 @@
     .bg-primary {
         background-color: #871717 !important;
     }
+
+    a:hover {
+        text-decoration: none;
+    }
 }

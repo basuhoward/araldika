@@ -1,0 +1,32 @@
+id: G0102
+slug: howard-james-patrick-ii
+grantee: Dr. James Patrick Howard, II
+name: Howard
+sort_name: Howard, James Patrick, II
+country: US
+date: 2024-02-16
+blazon:
+  arms:
+    en: >-
+      Argent, in pale a tetrahedron Azure, pierced in bend by a sword Or, with pommel and cross piece of the Second.
+    mt: >-
+      Lewn il-Fidda in Pale tetrahedron lewn Ikħal minfud b'sejf In Bend lewn id-Deheb u bil-maqbad u s-salib tiegħu ta' lewn Ikħal.
+  crest:
+    en: >-
+      Upon a helm befitting his degree, mantled Azure and doubled Or, is set for crest, upon a wreath of the liveries, a martlet Sable.
+    mt: >-
+      Fuq elmu li jixraq il-grad tiegħu bid-drappeġġ Ikħal u lewn id-Deheb hemm bħala Kresta fuq girlanda tal-istess ilwien ħuttafa ta' lewn Iswed.
+  motto:
+    text: Ir-rieda biss tmexxi l-qalb
+    language: Maltese
+    translation:
+      en: Only the will moves the heart
+      mt: Ir-rieda biss tmexxi l-qalb
+ordinary:
+  arms: tetrahedron
+  crest: martlet
+image:
+  full: "/assets/img/arms/G0102.svg"
+  escutcheon: "/assets/img/shields/G0102.svg"
+class: personal
+type: grant

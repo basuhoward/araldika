@@ -1,0 +1,27 @@
+id: G0055
+slug: berucci-manfredi
+grantee: Manfredi Berucci
+name: Berucci
+sort_name: Berucci, Manfredi
+country: IT
+date: 2023-03-17
+blazon:
+  arms:
+    en: >-
+      Parti per pale by a pallet Gules, Azure, and Or; at dexter, upon an inclined grassy base, a dragon sejeant proper, below at chief dexter, a mullet of six points Or; and at sinister, above a hurt, a lion rampant Azure gripping in his jaws a serpent proper extending to chief dexter, and all below at chief sinister a fleur-de-lys Gules.
+  crest:
+    en: >-
+      Above a helm befitting his degree, with mantling Or and Azure, is set for a crest upon a wreath of the liveries, an Antique crown (5 spikes visible) issuant from which is a demi-lion rampant Azure, langued Gules, holding in his lower fore-paw a cross formy of the Same (for the Order of Christ).
+  badge:
+    en: >-
+      A mullet of six points Or bearing a six-petalled heraldic rose, the whole surrounded by six oak leaves proper below an Antique crown (5 spikes visible).
+  standard:
+    en: >-
+      Of four yards in length fringed company Or and Azure, rounded in the fly, the Arms in the hoist, the livery field Argent split into three by two transverse bands Gules thereon the words “IPSA" and “DUCE" Or, the badge next to the hoist and in the fly, the crest centrally. The Mast bears a pointed tip, Argent.
+  motto:
+    text: Ipsa duce
+    language: Latin
+    translation:
+      en: With her as leader
+class: personal
+type: grant
