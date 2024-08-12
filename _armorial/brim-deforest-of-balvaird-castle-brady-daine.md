@@ -1,0 +1,47 @@
+---
+id: G0010
+slug: brim-deforest-of-balvaird-castle-brady-daine
+title: Brady Daine Brim-DeForest of Balvaird Castle
+name: Brim-DeForest of Balvaird Castle
+sort_name: Brim-DeForest of Balvaird Castle, Brady Daine
+country: US
+date: 2022-01-24
+blazon:
+  arms:
+    en: >-
+      Parted per chevron Gules and Argent, two acorns slipped Or; in base, a fleur-de-lys Azure.
+  crest:
+    en: >-
+      Upon a helm befitting his degree with mantling Gules, doubled Argent; on a wreath of the liveries, a demi-lion rampant Or, armed and langued Azure, holding in its paws a swallow-tailed pennon Azure charged with a cross pattée Argent.
+  coronet:
+    en: >-
+      The coronet of a noble.
+  motto:
+    - text: Un cran plus loin
+      language: French
+      translation:
+        en: One step further
+    - text: Vive le Barde
+      type: Crie de guerre
+      language: French
+      translation:
+        en: Long live the Bard
+  badge:
+    en: Within an oak wreath acorned, a fleur-de-lys, all Or.
+  standard:
+    en: >-
+      305 centimetres in length, per fess Argent and Gules, split and rounded in the fly, the Arms in the hoist, centrally the Crest between two representations of the Badge, separated by bends Azure bearing successively in Argent the motto "UN CRAN PLUS LOIN," the whole fringed compony Argent and Gules, with sleeve likewise tinctured.
+ordinary:
+  arms:
+    - level: 1
+      heading: Chevron
+    - level: 2
+      heading: per Chevron
+  crest:
+    - level: 1
+      heading: Animal
+    - level: 2
+      heading: Lion
+class: personal
+type: grant
+---

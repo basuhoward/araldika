@@ -1,0 +1,26 @@
+---
+id: G0109
+slug: bontempo-lisa-beth
+title: Lisa Beth Bontempo
+name: Bontempo
+sort_name: Bontempo, Lisa Beth
+country: US
+date: 2024-04-05
+blazon:
+  arms:
+    en: >-
+      Argent, in pale three flaming hearts Gules (2,1).
+  motto:
+    text: Sursum corda
+    language: Latin
+    translation:
+      en: Lift up your hearts
+class: personal
+type: grant
+ordinary:
+  arms:
+    - level: 1
+      heading: Human
+    - level: 2
+      heading: Hearts
+---

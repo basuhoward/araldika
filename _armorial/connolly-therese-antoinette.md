@@ -1,0 +1,27 @@
+---
+id: R0061
+slug: connolly-therese-antoinette
+title: Therese Antoinette Connolly (Mrs. Malcolm Battye)
+name: Connolly
+sort_name: Connolly, Therese Antoinette
+country: IE
+date: 2023-09-12
+posthumous: true
+blazon:
+  arms:
+    en: >-
+      Azure, a lymphad proper in full sail Argent, a cross formy Gules, its flags and pennon flying of the Last, upon a base barry wavy of five alternating of the Second and of the First, and in chief dexter a mullet Or.
+  motto:
+    text: Fides honorem tenuit
+    language: Latin
+    translation:
+      en: Faith has held honor
+class: personal
+type: registration
+ordinary:
+  arms:
+    - level: 1
+      heading: Transport
+    - level: 2
+      heading: Ship
+---

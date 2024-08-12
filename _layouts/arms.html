@@ -1,0 +1,81 @@
+---
+layout: default
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col-9 card-body mt-n5">
+      <h4 class="card-title">{{ page.name }}</h4>
+      <h6 class="card-subtitle mb-2 text-muted">
+        {{ page.title }},
+        {% if page.country %}{{ page.country }},{% endif %}
+        {{ page.date | date: "%Y" }}{% if page.posthumous %}<sup>&dagger;</sup>{% endif %}
+      </h6>
+      <p>
+        {% if page.blazon.arms %}
+        {{ page.blazon.arms.en }}
+        {% endif %}
+        {% if page.blazon.coronet %}
+        <em>Coronet</em> &mdash; {{ page.blazon.coronet.en }}
+        {% endif %}
+        {% if page.blazon.crest %}
+        <em>Crest</em> &mdash; {{ page.blazon.crest.en }}
+        {% endif %}
+        {% if page.blazon.supporters %}
+        <em>Supporters</em> &mdash; {{ page.blazon.supporters.en }}
+        {% endif %}
+        {% if page.blazon.compartment %}
+        <em>Compartment</em> &mdash; {{ page.blazon.compartment.en }}
+        {% endif %}
+        {% if page.blazon.decorations %}
+        <em>Decorations</em> &mdash; {{ page.blazon.decorations.en }}
+        {% endif %}
+        {% if page.blazon.manteau %}
+        <em>Manteau</em> &mdash; {{ page.blazon.manteau.en }}
+        {% endif %}
+
+        {% if page.blazon.motto %}
+        {% assign motto = page.blazon.motto %}
+        {% if motto.first.text %}
+        {% for item in motto %}
+        <em>{% if item.type %}{{ item.type }}{% else %}Motto{% endif %}</em>
+        &mdash;
+        {{ item.text }} {% if item.origin %}({{ item.origin }}){% endif %}.
+        {% endfor %}
+        {% else %}
+        <em>Motto</em> &mdash; {{ motto.text }}.
+        {% endif %}
+        {% endif %}
+      </p>
+      <p>
+        {% if page.blazon.badge %}
+        <em>Badge</em> &mdash; {{ page.blazon.badge.en }}
+        {% endif %}
+      </p>
+      <p>
+        {% if page.blazon.standard %}
+        <em>Standard</em> &mdash; {{ page.blazon.standard.en }}
+        {% endif %}
+      </p>
+      <p>
+        {% if page.blazon.banner %}
+        <em>Banner</em> &mdash; {{ page.blazon.banner.en }}
+        {% endif %}
+      </p>
+      <p>
+        {% if page.blazon.gonfalon %}
+        <em>Gonfalon</em> &mdash; {{ page.blazon.gonfalon.en }}
+        {% endif %}
+      </p>
+      {{ content }}
+    </div>
+    <div class="col-3">
+      {% if page.emblazon.full %}
+      <figure class="my-5">
+        <img src="{{ page.emblazon.full.img }}" class="w-100 mb-3 emblazon" />
+        <figcaption>{{ page.emblazon.full.caption | markdownify }}</figcaption>
+      </figure>
+      {% endif %}
+    </div>
+  </div>
+</div>

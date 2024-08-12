@@ -1,0 +1,23 @@
+---
+id: G0069
+slug: takeda-shutaro
+title: Prof. Dr. Shutaro Takeda
+name: Takeda
+sort_name: Takeda, Shutaro
+country: JP
+date: 2022-09-13
+blazon:
+  arms:
+    en: >-
+      Per pale Gules and Azure, on a chevron Argent between in chief two open books fesswise proper and at base point a rising demi-sun Argent, a chevronel of the field counterchanged.
+  crest:
+    en: >-
+      Upon a helm befitting his degree, with mantling Gules doubled Argent, is set for a crest upon a wreath of the liveries and within an olive wreath a terrestrial globe, all proper.
+  motto:
+    text: Sapere aude
+    language: Latin
+    translation:
+      en: Dare to know
+class: personal
+type: grant
+---

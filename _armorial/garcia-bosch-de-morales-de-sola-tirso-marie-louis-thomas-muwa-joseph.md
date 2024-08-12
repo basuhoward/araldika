@@ -1,0 +1,34 @@
+---
+id: R0052
+slug: garcia-bosch-de-morales-de-sola-tirso-marie-louis-thomas-muwa-joseph
+title: Tirso Marie Louis Thomas Muwa Joseph Garcia-Bosch-de Morales de Sola
+name: Garcia-Bosch-de Morales de Sola
+sort_name: Garcia-Bosch-de Morales de Sola, Tirso Marie Louis Thomas Muwa Joseph
+country: FR
+date: 2023-02-24
+blazon:
+  arms:
+    en: >-
+      Per pale: dexter, Argent, a Heron close Sable, with one leg raised, its chest feathers Gules, all within a bordure Gules bearing the crie de guerre "DE GARCIA ARRIBA NADÍE DIGA" (GARCIA); sinister, Azure, five fleur-de-lys Or bendwise (1,3,1), the chief bearing as a mark of cadency a fleur-de-lys Argent; and Quarterly, 1st and 4th, Per fess Argent, bendy of three Sable; 2nd and 3rd, Argent, a Mulberry tree proper (MORALES), debruised by two links of a chain in bend sinister Argent.
+  crest:
+    en: >-
+      Upon a helm befitting his degree, with mantling Gules doubled Argent, is set for a crest upon a wreath of the liveries, a man in full armour proper holding a flag per pale Argent and Gules charged with a Maltese cross counterchanged.
+  motto:
+    text: Stronger than strength
+    language: English
+    translation:
+      en: Stronger than strength
+ordinary:
+  arms:
+    - level: 1
+      heading: Pale
+    - level: 2
+      heading: per Pale
+  crest:
+    - level: 1
+      heading: Human
+    - level: 2
+      heading: Knight
+class: personal
+type: registration
+---

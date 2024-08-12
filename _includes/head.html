@@ -21,7 +21,7 @@
     {% assign desc = page.subtitle | markdownify | strip_html | strip_newlines %}
   {% endif %}
 
-  <title>{{ page.title }}</title>
+  <title>{{ page.title }} - {{ site.title }}</title>
 
   <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 

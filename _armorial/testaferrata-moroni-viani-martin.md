@@ -1,0 +1,32 @@
+---
+id: G0115
+slug: testaferrata-moroni-viani-martin
+title: Dr. Martin Testaferrata Moroni Viani
+name: Testaferrata Moroni Viani
+sort_name: Testaferrata Moroni Viani, Martin
+country: MT
+date: 2024-07-09
+blazon:
+  arms:
+    en: >-
+      Grand-quartered:
+      1st & 4th grand quarters: Argent, a bull salient guardant Gules and on a chief Azure three mullets of six points Or (TESTAFERRATA – baronial line);
+      2nd grand quarter: Argent, upon a base Vert, a mulberry tree fructed Proper (MORONI);
+      3rd grand quarter, counter-quartered:
+        1st & 4th counter-quarters: Argent, a bull salient guardant Gules and upon a chief Or, a demi-eagle displayed Sable, beaked and langued Gules (TESTAFERRATA – line of the Knights of the Holy Roman Empire);
+        2nd counter-quarter, quartered (CASTELLETTI):
+          1st & 4th: Gules, a castle of three towers Or;
+          2nd & 3rd: Azure, a griffon segreant Argent;
+        3rd counter-quarter: Or, between two arms vambraced Sable with hands Proper holding at fess by his hair a moor's head affronté erased and sangliant Proper crined of the Second, three mullets of six points Gules (VIANI).
+      The entire shield within a bordure Gules for difference.
+  crest:
+    en: >-
+      Above the shield is placed the coronet of a Roman Patrician, issuant from which is a helm befitting his degree, with mantling Gules doubled Argent, bearing for a crest upon a wreath of the liveries, a demi-bull passant, guardant Gules.
+  motto:
+    text: Non nisi per ardua
+    language: Latin
+    translation:
+      en: Not without effort
+class: personal
+type: grant
+---

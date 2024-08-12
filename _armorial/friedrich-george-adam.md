@@ -1,0 +1,35 @@
+---
+id: G0100
+slug: friedrich-george-adam
+title: George Adam Friedrich
+name: Friedrich
+sort_name: Friedrich, George Adam
+country: DE
+date: 2023-01-05
+posthumous: true
+blazon:
+  arms:
+    en: >-
+      Per chevron Gules and Argent, an eagle counterchanged holding in its dexter claw a ploughshare Bleu Celeste and in its sinister claw the tip of a pruning hook of the Same.
+  crest:
+    en: >-
+      Upon a helm befitting his degree, with mantling Bleu Celeste doubled Argent, is set on a wreath of the liveries an anvil Bleu Celeste, arising from behind which an eagle's leg embowed in pale Gules its claws upwards holding aloft a hammer Bleu Celeste.
+  motto:
+    text: Und jage ihm nach
+    language: German
+    translation:
+      en: And chase after it
+class: personal
+type: grant
+ordinary:
+  arms:
+    - level: 1
+      heading: Chevron
+    - level: 2
+      heading: per Chevron
+  crest:
+    - level: 1
+      heading: Tools
+    - level: 2
+      heading: Anvil
+---

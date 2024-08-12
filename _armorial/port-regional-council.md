@@ -1,0 +1,18 @@
+---
+id: G0052
+slug: port-regional-council
+title: Port Regional Council
+name: Port Regional Council
+sort_name: Port Regional Council
+country: MT
+date: 2022-04-20
+class: entity
+type: grant
+blazon:
+  arms:
+    en: >-
+      Argent, six escutcheons Gules arranged fesswise (3,2,1), upon a chief Sable below three mural crowns of three towers arranged fesswise, two mural crowns of four towers similarly arranged, all Or.
+  crest:
+    en: >-
+      Above the shield is a mural crown of five towers Or.
+---

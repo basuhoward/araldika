@@ -1,0 +1,31 @@
+---
+id: G0012
+slug: vassallo-ivan
+title: Ivan Vassallo
+name: Vassallo
+sort_name: Vassallo, Ivan
+country: MT
+date: 2022-01-24
+blazon:
+  arms:
+    en: >-
+      Gules, a lion rampant Or; upon the upper part of a bend Azure, a mullet of six points of the Second.
+  crest:
+    en: >-
+      Upon a helm befitting his degree, mantled Gules, doubled Argent, and within a wreath of the liveries, a Talbot sejant coward proper, collared and chained Or, holding by his external foreleg a palm leaf and by his internal foreleg an olive branch, all proper.
+  motto:
+    text: Amor erga melitenses
+    language: Latin
+    translation:
+      en: Love to the Maltese
+ordinary:
+  arms:
+    level:
+      number: 1
+      heading: Animal
+      level:
+        number: 2
+        heading: Lion
+class: personal
+type: grant
+---

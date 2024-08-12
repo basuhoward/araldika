@@ -1,0 +1,29 @@
+---
+id: R0065
+slug: mifsud-charles-anthony
+title: Charles Anthony Mifsud
+name: Mifsud
+sort_name: Mifsud, Charles Anthony
+country: US
+date: 2023-11-24
+blazon:
+  arms:
+    en: >-
+      Gules, a balance between two demi-Maltese crosses palewise issuant from the flanks Argent.
+  crest:
+    en: >-
+      Upon a helm with wreath Argent and Gules, in front of a rising sun in splendour Or, a falcon Gules beaked and belled Argent, holding in the dexter foot a sword point upwards and a key wards upwards and outwards in saltire Sable.
+  motto:
+    text: Mortuo Mundo Vivum in Christo
+    language: Latin
+    translation:
+      en: Dead to the world, alive in Christ
+  badge:
+    en: >-
+      A sun in splendour Or charged with a Maltese cross throughout Sable voided Argent.
+  standard:
+    en: >-
+      Argent, rounded in the fly, the Arms in the hoist, centrally the crest between two representations of the badge separated by bends Argent cottised Gules bearing successively in Sable the motto "MORTUO MUNDO VIVUM IN CHRISTO", the whole fringed compony Argent and Gules, the sleeve Argent.
+class: personal
+type: registration
+---

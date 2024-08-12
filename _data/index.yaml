@@ -1,10 +1,16 @@
--
-  title:    General Armory
+- title:    General Armory
   subtitle: Maltese Arms Awarded
   image:    /assets/img/identity/general-armory.webp
   link:     /general-armory
--
-  title:    Mottoes
-  subtitle: Ordinary of Mottoes
+- title:    Ordinary of Arms
+  subtitle: Arms Organized by Design
+  image:    /assets/img/identity/ordinary-of-arms.webp
+  link:     /ordinary-of-arms
+- title:    Ordinary of Crests
+  subtitle: Crests Organized by Design
+  image:    /assets/img/identity/ordinary-of-crests.webp
+  link:     /ordinary-of-crests
+- title:    Ordinary of Mottoes
+  subtitle: Mottoes Alphabetically
   image:    /assets/img/identity/mottoes.webp
   link:     /mottoes

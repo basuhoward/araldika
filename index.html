@@ -1,19 +1,25 @@
 ---
 layout: bare
-title: Home
-navbar: false
+title: Armory and Ordinary of Malta
+menu: false
 ---
 
 <body class="index-page sidebar-collapse">
   <div class="wrapper">
+    {% include navbar.html %}
     <div class="page-header clear-filter" filter-color="orange">
       <div class="page-header-image" data-parallax="true" style="background-image:url('/assets/img/identity/home.webp');">
       </div>
       <div class="container">
-        <h1><span style="font-weight: bold">{{ site.title }}</span> {{ site.subtitle  }}</h1>
-        <div class="row mt-5 pt-5">
+        <div class="row">
+          <figure class="col-11 mx-auto">
+            {% svg assets/img/identity/araldika-logo.svg class="w-100" %}
+          </figure>
+        </div>
+        <div class="row mt-n5">
           {% for item in site.data.index %}
-          <div class="card col-3 mx-2 p-0">
+          <div class="col-3">
+          <div class="card mx-2 p-0">
             <a href="{{ item.link | relative_url }}">
               <div class="card-body p-0 text-black">
                 <img class="card-img-top m-0 p-0" src="{{ item.image | relative_url }}" alt="Decorative image">
@@ -21,6 +27,7 @@ navbar: false
                 <h6 class="px-3 pb-3">{{ item.subtitle }}</h6>
               </div>
             </a>
+          </div>
           </div>
           {% endfor %}
         </div>

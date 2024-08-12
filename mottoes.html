@@ -14,18 +14,19 @@ TODO Okay, make sure I add warcries.
         {% assign sort_mottoes = "" | split: "" %}
 
         {% comment %} Creates an array of names and a mapping of names to arms {% endcomment %}
-        {% for arms in site.data.arms %}
-        {% if arms[1].blazon.motto.text %}
-            {% capture motto_info %}{{ arms[1].blazon.motto.text }};;{{ arms[1].blazon.motto.language }};;{{ arms[1].blazon.motto.translation.en }};;{{ arms[1].grantee }};;{{ arms[1].date }};;{{ arms[1].country }};;{{ arms[1].posthumous }};;Motto{% endcapture %}
+        {% assign armorial = site.armorial %}
+        {% for arms in armorial %}
+        {% if arms.blazon.motto.text %}
+            {% capture motto_info %}{{ arms.blazon.motto.text }};;{{ arms.blazon.motto.language }};;{{ arms.blazon.motto.translation.en }};;{{ arms.title }};;{{ arms.date }};;{{ arms.country }};;{{ arms.posthumous }};;{{ arms.url }};;Motto{% endcapture %}
             {% assign sort_mottoes = sort_mottoes | push: motto_info %}
         {% else %}
-            {% for m in arms[1].blazon.motto %}
+            {% for m in arms.blazon.motto %}
                 {% if m.type %}
                     {% assign type = m.type %}
                 {% else %}
                     {% assign type = "Motto" %}
                 {% endif %}
-                {% capture motto_info %}{{ m.text }};;{{ m.language }};;{{ m.translation.en }};;{{ arms[1].grantee }};;{{ arms[1].date }};;{{ arms[1].country }};;{{ arms[1].posthumous }};;{{type}}{% endcapture %}
+                {% capture motto_info %}{{ m.text }};;{{ m.language }};;{{ m.translation.en }};;{{ arms.title }};;{{ arms.date }};;{{ arms.country }};;{{ arms.posthumous }};;{{ arms.url }};;{{type}}{% endcapture %}
                 {% assign sort_mottoes = sort_mottoes | push: motto_info %}
             {% endfor %}
         {% endif %}
@@ -46,7 +47,8 @@ TODO Okay, make sure I add warcries.
         {% assign motto_date = motto_info_parts[4] %}
         {% assign motto_country = motto_info_parts[5] %}
         {% assign motto_posthumous = motto_info_parts[6] %}
-        {% assign motto_type = motto_info_parts[7] %}
+        {% assign motto_url = motto_info_parts[7] %}
+        {% assign motto_type = motto_info_parts[8] %}
 
         {% assign first_letter = motto_text | slice: 0, 1 %}
         {% if current_first_letter != first_letter %}
@@ -55,20 +57,22 @@ TODO Okay, make sure I add warcries.
         {% endif %}
 
         <div class="card">
-            <div class="card-body mt-n4">
-                <h4 class="card-title">{{ motto_text }}</h4>
-                <h6 class="card-subtitle mb-2 text-muted">
-                    {{ motto_grantee }},
-                    {{ motto_country }},
-                    {{ motto_date | date: "%Y" }}{% if motto_posthumous == "true" %}<sup>&dagger;</sup>{% endif %}
-                </h6>
-                <p>
-                    <em>{% unless motto_type == "Motto" %}{{ motto_type }}: {% endunless %}{{ motto_language }}</em>.
-                    {% unless motto_language == "English" %}
-                    {{ motto_translation }}.
-                    {% endunless %}
-                </p>
-            </div>
+            <a href="{{ motto_url | relative_url }}">
+                <div class="card-body mt-n4">
+                    <h4 class="card-title">{{ motto_text }}</h4>
+                    <h6 class="card-subtitle mb-2 text-muted">
+                        {{ motto_grantee }},
+                        {{ motto_country }},
+                        {{ motto_date | date: "%Y" }}{% if motto_posthumous == "true" %}<sup>&dagger;</sup>{% endif %}
+                    </h6>
+                    <p>
+                        <em>{% unless motto_type == "Motto" %}{{ motto_type }}: {% endunless %}{{ motto_language }}</em>.
+                        {% unless motto_language == "English" %}
+                        {{ motto_translation }}.
+                        {% endunless %}
+                    </p>
+                </div>
+            </a>
         </div>
         {% endfor %}
     </div>

@@ -1,0 +1,30 @@
+---
+id: G0096
+slug: panayi-kyriakos
+title: Kyriakos Panayi
+name: Panayi
+sort_name: Panayi, Kyriakos
+country: AU
+date: 2023-10-20
+blazon:
+  arms:
+    en: >-
+      Quarterly:
+      1st & 4th: Azure, three lions rampant Or (2,1);
+      2nd & 3rd: Gules, a unicorn passant Or.
+  crest:
+    en: >-
+      Above a helm befitting his degree with mantling Azure doubled Or is set for a crest upon a wreath of the liveries, a demi bull rampant proper bearing upon its head the crown of the old kingdom of Cyprus.
+  motto:
+    - text: Ελευθερία ή Θάνατος
+      language: Greek
+      translation:
+        en: Freedom or death
+    - text: Μολών Λαβέ
+      language: Greek
+      type: Cri de guerre
+      translation:
+        en: Come and take them
+class: personal
+type: grant
+---

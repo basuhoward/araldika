@@ -1,0 +1,23 @@
+---
+id: G0097
+slug: lucarella-leonardo
+title: Dr. Leonardo Lucarella
+name: Lucarella
+sort_name: Lucarella, Leonardo
+country: IT
+date: 2023-11-24
+blazon:
+  arms:
+    en: >-
+      Azure, in pale a comet, its head an etoile of six points, its tail wavy ending in an arrowhead at Base Point, all Or; on a chief of the Last, an eagle Sable, langued Gules.
+  coronet:
+    en: >-
+      A baronial coronet above the shield.
+  motto:
+    text: CLARIOR ELUCESCAM
+    language: Latin
+    translation:
+      en: I will shine brighter
+class: personal
+type: grant
+---

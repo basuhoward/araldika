@@ -1,0 +1,28 @@
+---
+id: G0103
+slug: clare-katharine
+title: Captain Katharine Clare RN
+name: Clare
+sort_name: Clare, Katharine
+country: GB
+date: 2024-02-16
+blazon:
+  arms:
+    en: Or, three Chevrons Gules.
+    mt: Lewn id-Deheb tlett Chevrons Ħomor.
+  badge:
+    en: >-
+      Out of a Naval Crown Or, two Arms: the Dexter vested in the Mess Dress Uniform of a Wing Commander of the Royal Air Force, the Sinister vested in the Uniform of a Captain in the Royal Navy, both proper, grasping a Trident palewise points upwards Or.
+    mt: >-
+      Minn ġo Kuruna Navali hemm ħierġa żewġ dirgħajn b’dak tan-naħa Dexter imlibbsa bl-uniformi formali tal-Mess ta’ Wing Commander tar-Royal Air Force, filwaqt li dak tan-naħa Sinister imlibbes bl-uniformi ta’ Kaptan tar-Royal Navy, it- tnejn ta’ lewn Naturali u jżommu Trident Palewise bil-ponot ilfuq lewn id-Deheb.
+image:
+  escutcheon: "/assets/img/shields/G0103.svg"
+ordinary:
+  arms:
+    - level: 1
+      heading: Chevron
+    - level: 2
+      heading: 3 chevrons
+class: personal
+type: grant
+---

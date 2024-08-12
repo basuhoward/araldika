@@ -1,0 +1,34 @@
+---
+id: R0060
+slug: guelfi-de-pulvano-guelfi-di-scansano-massimiliano-ildebrando-lorenzo
+title: Massimiliano Ildebrando Lorenzo Guelfi de Pulvano Guelfi di Scansano
+name: Guelfi de Pulvano Guelfi di Scansano
+sort_name: Guelfi de Pulvano Guelfi di Scansano, Massimiliano Ildebrando Lorenzo
+country: MT
+date: 2023-09-12
+blazon:
+  arms:
+    en: >-
+      Per pale, per fess Or, a crowned eagle displayed Sable and Azure, three mullets (2,1), in chief between two crescents a crescent reversed all Argent, and of the Last, sinister to a tree upon a mound a stag attired and springing all proper, on chief Azure a label of four Gules, between its points in fess three fleur-de-lys Or (ANJOU).
+  crest:
+    en: >-
+      Upon a helm befitting his degree is borne the coronet of a Palatine Count.
+  motto:
+    text: Deus nostra spes et fortitudo
+    language: Latin
+    translation:
+      en: God is our hope and strength
+ordinary:
+  arms:
+    - level: 1
+      heading: Quarterly
+    - level: 2
+      heading: complex
+  crest:
+    - level: 1
+      heading: Coronet
+    - level: 2
+      heading: Coronet of a count palantine
+class: personal
+type: registration
+---

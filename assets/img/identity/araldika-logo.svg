@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1000mm"
+   height="69.908997mm"
+   version="1.1"
+   viewBox="0 0 2834.6456 198.16724"
+   id="svg1"
+   sodipodi:docname="araldika-logo.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <rect
+       x="-126.31579"
+       y="-256.14035"
+       width="957.84454"
+       height="164.91228"
+       id="rect1" />
+    <rect
+       x="-126.31579"
+       y="-256.14035"
+       width="957.84454"
+       height="164.91228"
+       id="rect1-1" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#010101"
+     bordercolor="#000000"
+     borderopacity="0.4"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="pt"
+     inkscape:zoom="0.59954749"
+     inkscape:cx="1889.7586"
+     inkscape:cy="-21.68302"
+     inkscape:window-width="3200"
+     inkscape:window-height="1333"
+     inkscape:window-x="1728"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg1">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="2834.6455"
+       height="198.16724"
+       id="page1"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <g
+     id="g1"
+     transform="matrix(4.9286202,0,0,4.9286202,28.346418,16.781107)"
+     inkscape:label="LogoType">
+    <path
+       d="m 161.82716,3.7724347 c -0.0218,-0.4559315 -0.39799,-0.8142738 -0.85394,-0.8142738 h -0.005 l -0.16657,5.389e-4 C 155.4686,2.958965 152.26174,1.0423071 151.13059,0.21817922 151.01118,0.13153212 150.83081,0 150.54786,0 c -0.2825,0 -0.46288,0.13099317 -0.58152,0.21790545 -1.13107,0.82413645 -4.33747,2.74052915 -9.67147,2.74075145 l -0.16648,-5.389e-4 h -0.006 c -0.45595,0 -0.83217,0.3583423 -0.85396,0.8142738 -0.0303,0.6357695 -0.61087,15.6524562 10.74028,22.5627122 l 0.0937,0.05768 c 0.13712,0.08385 0.29179,0.125789 0.44629,0.125789 0.15442,0 0.30918,-0.04193 0.44621,-0.125789 l 0.0922,-0.05602 C 162.43932,19.424636 161.85893,4.4079515 161.82787,3.772182 Z M 156.28474,18.733948 141.97785,4.6058775 c 4.33041,-0.3191026 7.19646,-1.8064092 8.56884,-2.7115638 1.47673,0.9736333 4.67937,2.6232999 9.57685,2.7648904 -0.0345,2.2115241 -0.4516,8.5727809 -3.83902,14.0749759 z"
+       id="path1"
+       sodipodi:nodetypes="cscccscccscccscccccccccc"
+       style="fill:#f8f8f8;fill-opacity:1;stroke-width:0.0229854"
+       inkscape:label="Shield Logo" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.58496853,0,0,0.58496853,-138.34493,166.07)"
+       id="text1"
+       style="font-weight:bold;font-size:53.3333px;line-height:0;font-family:'Quattrocento Sans';-inkscape-font-specification:'Quattrocento Sans, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect1);display:inline;fill:#f8f8f8;fill-opacity:1;stroke-linecap:round;stroke-linejoin:bevel;paint-order:fill markers stroke"
+       inkscape:label="Araldika"><tspan
+         x="236.97978"
+         y="-240.45565"
+         id="tspan2"><tspan
+           style="font-family:Montserrat;-inkscape-font-specification:'Montserrat, Bold'"
+           id="tspan1">Araldika</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.58496853,0,0,0.58496853,158.81166,166.96698)"
+       id="text1-9"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.3333px;line-height:0;font-family:'Quattrocento Sans';-inkscape-font-specification:'Quattrocento Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect1-1);display:inline;fill:#f8f8f8;fill-opacity:1;stroke-linecap:round;stroke-linejoin:bevel;paint-order:fill markers stroke"
+       inkscape:label="Armory and Ordinary of Malta"><tspan
+         x="9.2732149"
+         y="-241.98901"
+         id="tspan3">Armory and Ordinary of Malta</tspan></text>
+  </g>
+</svg>

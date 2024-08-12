@@ -1,0 +1,49 @@
+---
+id: R0025
+slug: boyd-christian-dominic
+title: The Rev. Dr. Christian Dominic Boyd
+name: Boyd
+sort_name: Boyd, Christian Dominic
+country: US
+date: 2022-02-07
+blazon:
+  arms:
+    en: >-
+      Azure, a bend Gules fimbriated Argent, charged with three crosses pattee between two greyhound’s heads erased proper all of the Last.
+  coronet:
+    en: >-
+      Above the shield is the Coronet of Nobility for Knights and Dames of the Royal Order of Obeng II, surmounted by a helm appropriate to his degree.
+  crest:
+    en: >-
+      Above which is set for crest upon a wreath of the liveries a paschal lamb regardant proper its banner bearing Azure a saltire argent.
+  supporters:
+    en: >-
+      For supporters two foxes combattant Tenné.
+  decorations:
+    en: >-
+      The shield is decorated with the Grand Collar of the Royal Order of Obeng II.
+  manteau:
+    en: >-
+      The Arms are borne on a mantle Azure, flocked in Or lined in Ermine bearing a pavilion surmounted by the traditional Coronet of a Count.
+  motto:
+    text: Si Comprehendis Non Est Deus
+    language: Latin
+    translation:
+      en: If you understand it, it is not God
+class: personal
+type: registration
+source:
+  grantor: Chronicler of Arms of Castile and León
+  date: 2021-12-13
+ordinary:
+  arms:
+    - level: 1
+      heading: Bend
+    - level: 2
+      heading: fimbriated
+  crest:
+    - level: 1
+      heading: Animal
+    - level: 2
+      heading: Lamb
+---

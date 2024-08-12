@@ -1,0 +1,34 @@
+---
+id: G0050
+slug: ellis-ronald-charles
+title: Ronald Charles Ellis
+name: Ellis
+sort_name: Ellis, Ronald Charles
+country: US
+date: 2022-03-12
+blazon:
+  arms:
+    en: >-
+      Or, a Latin cross Sable between each of its arms a scallop Gules.
+  crest:
+    en: >-
+      Above a helm befitting his degree is set for a crest upon a wreath of the colours an eagle rising its wings elevated Argent, ducally gorged Azure.
+  motto:
+    text: Mors mihi vita fide
+    language: Latin
+    translation:
+      en: Death to me is life through faith
+class: personal
+type: grant
+ordinary:
+  arms:
+    - level: 1
+      heading: Cross
+    - level: 2
+      heading: Latin Cross
+  crest:
+    - level: 1
+      heading: Animal
+    - level: 2
+      heading: Bird
+---

@@ -1,0 +1,60 @@
+---
+title: Ordinary of Arms
+description: Arms Organized by Design
+layout: default
+image: /assets/img/identity/ordinary-of-arms.webp
+---
+<div class="container">
+  <div class="row">
+    {% assign armorial = site.armorial %}
+    {% assign l1_heading_list = "" | split: "" %}
+    {% assign l2_heading_list = "" | split: "" %}
+    {% assign blazon_eng_list = "" | split: "" %}
+
+    {% for arms in armorial %}
+    {% assign l1 = arms.ordinary.arms | where: "level", 1 %}
+    {% assign heading = l1[0].heading %}
+    {% if heading %}
+    {% assign l1_heading_list = l1_heading_list | push: heading %}
+    {% endif %}
+
+    {% assign l2 = arms.ordinary.arms | where: "level", 2 %}
+    {% assign heading = l2[0].heading %}
+    {% if heading %}
+    {% assign l2_heading_list = l2_heading_list | push: heading %}
+    {% endif %}
+    {% endfor %}
+
+    {% assign l1_heading_list = l1_heading_list | sort | uniq %}
+    {% assign l2_heading_list = l2_heading_list | sort | uniq %}
+
+    {% for l1 in l1_heading_list %}
+    <h1>{{ l1 }}</h1>
+    <div class="card">
+      <div class="card-body mt-n4">
+        {% for l2 in l2_heading_list %}
+        {% assign need_l2_heading = true %}
+        {% for arms in armorial %}
+        {% assign l1_curr = arms.ordinary.arms | where: "level", 1 %}
+        {% assign l2_curr = arms.ordinary.arms | where: "level", 2 %}
+        {% assign l1_curr_heading = l1_curr[0].heading %}
+        {% assign l2_curr_heading = l2_curr[0].heading %}
+        {% if l1 == l1_curr_heading and l2 == l2_curr_heading %}
+        {% if need_l2_heading == true %}
+        {% assign need_l2_heading = false %}
+        <h4 class="card-title">{{ l2 }}</h4>
+        {% endif %}
+        <p>{{ arms.blazon.arms.en }}
+          <a href="{{ arms.url | relative_url }}">
+            <span class="card-subtitle mb-2 text-muted arms-link">{{ arms.title }}</span>
+          </a>
+        </p>
+        {% endif %}
+        {% endfor %}
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+
+  </div>
+</div>

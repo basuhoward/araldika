@@ -1,0 +1,42 @@
+---
+id: G0051
+slug: chapelle-mark-anthony
+title: Mark Anthony Chapelle
+name: Chapelle
+sort_name: Chapelle, Mark Anthony
+country: MT
+date: 2022-04-20
+blazon:
+  arms:
+    en: >-
+      Quarterly:
+      1st: Per fess Gules an orange tree proper fructed Or supported at sinister by a lion salient of the Last and Azure three bendlets sinister of the Second (CIANTAR);
+      2nd: Gules, a double-headed eagle displayed Or crowned of the Same (LASCARIS);
+      3rd: Azure, between four firesteels addorsed a Greek cross all Or (PALEOLOGO);
+      4th: Azure, between three mullets of six points Or (2,1) a chevron of the same (ABELA).
+      Over all upon an escutcheon Azure, a fleur-de-lys Or.
+  crest:
+    en: >-
+      Above the shield, two helms Argent both turned inwards with visor bars and gorgets Or and mantling Gules doubled Or, For a crest, centrally placed atop both helms, upon a wreath of the colours an orange tree fructed Or proper supported at sinister by a lion salient Or (CIANTAR).
+  coronet:
+    en: >-
+      Dexter, a coronet of a Count; Sinister, a coronet of a Baron.
+  motto:
+    text: Ingenio et prudentia
+    language: Latin
+    translation:
+      en: By ingenuity and prudence
+class: personal
+type: grant
+ordinary:
+  arms:
+    - level: 1
+      heading: Quarterly
+    - level: 2
+      heading: complex
+  crest:
+    - level: 1
+      heading: Animal
+    - level: 2
+      heading: Lion
+---

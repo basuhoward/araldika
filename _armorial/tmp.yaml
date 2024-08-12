@@ -1,0 +1,19 @@
+ordinary:
+  arms:
+    - level: 1
+      heading:
+    - level: 2
+      heading:
+  crest:
+    - level: 1
+      heading:
+    - level: 2
+      heading:
+
+
+ordinary:
+  arms:
+    - level: 1
+      heading: Pale
+    - level: 2
+      heading: per Pale

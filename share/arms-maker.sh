@@ -3,13 +3,16 @@
 TMPFILE=`mktemp`
 
 pbpaste > $TMPFILE
-SLUG=`yq .slug $TMPFILE`
+SLUG=`yq .slug $TMPFILE | head -n1`
 
-if [ -e "$SLUG.yaml" ]; then
-    echo "Error: File '$SLUG.yaml' already exists."
+if [ -e "$SLUG.md" ]; then
+    echo "Error: File '$SLUG.md' already exists."
     exit 1
 fi
 
-mv $TMPFILE $SLUG.yaml
+## echo '---' > $SLUG.md
+cat $TMPFILE >> $SLUG.md
+## echo '---' >> $SLUG.md
 
-echo "Notice: Created '$SLUG.yaml'"
+echo "Notice: Created '$SLUG.md'"
+cat $SLUG.md

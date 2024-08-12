@@ -1,0 +1,38 @@
+---
+id: G0009
+slug: baldacchino-andrea-sacco
+title: Andrea Sacco Baldacchino
+name: Baldacchino
+sort_name: Baldacchino, Andrea Sacco
+country: MT
+date: 2022-01-24
+blazon:
+  arms:
+    en: >-
+      Quarterly: 1st and 4th, per fess Gules, a drawstring sack Or with cords of the Same, and of the Last, barry of three of the First, each bar bearing a goutte Argent; 2nd and 3rd, Azure, issuing from the sinister side of the shield an arm in armour embowed Argent, with hand proper holding in pale a staff of the Second, supporting a baldachin pily inverted Or and Gules, fringed of the Last, garnished of the Third, with a pair of ribbons streaming from both sides of its finial; in base dexter, a mullet of six points, all of the Same.
+  crest:
+    en: >-
+      Upon a helm with mantling Gules, doubled Or, and a wreath of the
+      liveries, is set a lion sejant Or, its left foreleg atop a sack of
+      the Same, its right supporting a baldachin pily inverted of the
+      Last and Gules, fringed of the Same, garnished Or, flying from its
+      finial two streamers Argent, bearing the legend "Festina Lente."
+  motto:
+    text: Memento mei per Artem
+    language: Latin
+    translation:
+      en: Remember me through art
+ordinary:
+  arms:
+    - level: 1 
+      heading: Quarterly
+    - level: 2
+      heading: complex
+  crest:
+    - level: 1
+      heading: Animal
+    - level: 2
+      heading: Lion
+class: personal
+type: grant
+---

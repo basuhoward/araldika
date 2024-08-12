@@ -1,0 +1,34 @@
+---
+id: G0070
+slug: wright-of-deerfield-john-michael
+title: John Michael Wright of Deerfield
+name: Wright of Deerfield
+sort_name: Wright of Deerfield, John Michael
+country: US
+date: 2022-09-13
+blazon:
+  arms:
+    en: >-
+      Or, a fess gyronny of eight Argent and Sable, between in chief a Maltese cross Gules and in base a lymphad sails furled Sable, its oars in action, its pennon flying Gules.
+  crest:
+    en: >-
+      Above the shield is placed a helm befitting his degree, with mantling Gules doubled Or, and for a crest upon a wreath of the colours, a clenched gauntlet Argent grasping in pale a dagger of the Same, its hilt proper.
+  motto:
+    text: Per caeli per terras
+    language: Latin
+    translation:
+      en: Through sky and land
+ordinary:
+  arms:
+    - level: 1
+      heading: Fess
+    - level: 2
+      heading: Gyronny
+  crest:
+    - level: 1
+      heading: Armor
+    - level: 2
+      heading: Guantlet
+class: personal
+type: grant
+---
