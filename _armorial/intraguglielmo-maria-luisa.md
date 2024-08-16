@@ -13,6 +13,12 @@ blazon:
   coronet:
     en: >-
       Above the Oval is placed the Coronet of a Noble.
+ordinary:
+  arms:
+    - level: 1
+      heading: Fess
+    - level: 2
+      heading: per Fess
 class: personal
 type: grant
 ---

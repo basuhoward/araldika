@@ -3,7 +3,6 @@
         display: inline;
         svg {
             vertical-align: middle;
-            border: 1px #A0a0a0 solid;
             width: 2.5rem;
             height: 2.5rem;
         }
@@ -31,6 +30,7 @@
 
     a {
        color: #871717;
+       font-weight: bold;
     }
     
     a:hover {

@@ -32,9 +32,15 @@ blazon:
       en: Blessed is he
 ordinary:
   arms:
-    level:
-      number: 1
+    - level: 1
       heading: Mullet
+    - level: 2
+      heading: 8 mullets
+  crest:
+    - level: 1
+      heading: Animal
+    - level: 2
+      heading: Bird   
 class: personal
 type: grant
 ---

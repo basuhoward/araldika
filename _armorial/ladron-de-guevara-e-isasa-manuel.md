@@ -21,6 +21,17 @@ blazon:
   honors:
     en: >-
       The shield is borne on the Cross of the Real Cuerpo de la Nobleza of Madrid and bears the Insignia of a Knight of Merit of the Sacred Military Constantinian Order of St. George.
+ordinary:
+  arms:
+    - level: 1
+      heading: Quarterly
+    - level: 2
+      heading: complex
+  crest:
+    - level: 1
+      heading: Animal
+    - level: 2
+      heading: Feathers
 class: personal
 type: registration
 ---
