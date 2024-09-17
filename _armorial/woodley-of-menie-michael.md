@@ -32,4 +32,15 @@ blazon:
       en: Flying to the heavens
 class: personal
 type: grant
+ordinary:
+  arms:
+    - level: 1
+      heading: Chevron
+    - level: 2
+      heading: per Chevron
+  crest:
+    - level: 1
+      heading: Animal
+    - level: 2
+      heading: Bird
 ---

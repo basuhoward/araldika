@@ -20,4 +20,15 @@ blazon:
       en: Through hardships to the stars
 class: personal
 type: grant
+ordinary:
+  arms:
+    - level: 1
+      heading: Pale
+    - level: 2
+      heading: per Pale
+  crest:
+    - level: 1
+      heading: Animal
+    - level: 2
+      heading: Bird
 ---

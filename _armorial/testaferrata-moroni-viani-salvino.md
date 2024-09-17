@@ -13,7 +13,10 @@ blazon:
       Argent, a bull salient guardant Gules and on a chief Azure three mullets of six points Or (TESTAFERRATA – baronial line).
   crest:
     en: >-
-      Above the shield is placed the coronet of a Maltese Baron and for a crest upon a helm with mantling Gules doubled Argent and a wreath of the liveries a demi-bull guardant Gules.
+      Issuant from a coronet, a crest upon a helm with mantling Gules doubled Argent and a wreath of the liveries a demi-bull guardant Gules.
+  coronet:
+    en: >-
+      Coronet of a Maltese baron.
   motto:
     text: Non nisi per ardua
     language: Latin
@@ -21,4 +24,15 @@ blazon:
       en: Not unless through difficulties
 class: personal
 type: grant
+ordinary:
+  arms:
+    - level: 1
+      heading: Animal
+    - level: 2
+      heading: Bull
+  crest:
+    - level: 1
+      heading: Animal
+    - level: 2
+      heading: Bull
 ---

@@ -20,4 +20,15 @@ blazon:
       en: Brave in adversity
 class: personal
 type: grant
+ordinary:
+  arms:
+    - level: 1
+      heading: Quarterly
+    - level: 2
+      heading: complex
+  crest:
+    - level: 1
+      heading: Building
+    - level: 2
+      heading: Tower
 ---

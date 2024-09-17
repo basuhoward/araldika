@@ -20,4 +20,15 @@ blazon:
     language: Latin
 class: personal
 type: grant
+ordinary:
+  arms:
+    - level: 1
+      heading: Pall
+    - level: 2
+      heading: Pall reversed
+  crest:
+    - level: 1
+      heading: Animal
+    - level: 2
+      heading: Wolf
 ---

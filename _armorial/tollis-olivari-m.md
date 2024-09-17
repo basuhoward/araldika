@@ -23,4 +23,10 @@ type:
   registration:
     source: Chronicler King of Arms of Spain
     date: 2000-05-03
+ordinary:
+  arms:
+    - level: 1
+      heading: Quarterly
+    - level: 2
+      heading: Complex
 ---

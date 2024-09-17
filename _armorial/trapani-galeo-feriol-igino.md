@@ -12,7 +12,7 @@ blazon:
       Per pale: Gules, facing dexter, in pale a breast plate of armour topped by a plumed helmet all Or, and on a chief Azure, three mullets of the Second (GALEA); and of the First, in pale with hilt in base, a sword of the Second (FERIOL).
   crest:
     en: >-
-      Upon a helm affronté with open visor and mantling Argent, issuant from a baronial crest coronet, is set a breast plate of armour affronté topped by a plumed helmet, all Or.
+      Upon a helm affronté with open visor and mantling Argent, issuant from the coronet, is set a breast plate of armour affronté topped by a plumed helmet, all Or.
   supporters:
     en: >-
       Two lions salient Or.
@@ -32,4 +32,15 @@ type: registration
 source:
   grantor: Maltese nobility
   date: historical
+ordinary:
+  arms:
+    - level: 1
+      heading: Pale
+    - level: 2
+      heading: per Pale
+  crest:
+    - level: 1
+      heading: Armor
+    - level: 2
+      heading: Plate
 ---

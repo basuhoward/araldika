@@ -21,4 +21,16 @@ blazon:
       en: Thy gloom as noon
 class: personal
 type: grant
+ordinary:
+  arms:
+    - level: 1
+      heading: Barry
+    - level: 2
+      heading: Barry bendy
+  crest:
+    - level: 1
+      heading: Vegetable
+    - level: 2
+      heading: Potato
+
 ---

@@ -15,12 +15,21 @@ blazon:
       1st counter-quarter: Azure, a sun in his splendour Or and in base fesswise two mullets of eight points of the Same;
       2nd & 3rd counter-quarters: Azure, paly of three Argent;
       4th counter-quarter: Argent, in pale a lily flower proper slipped Vert (AMORELLI).
+  coronet:
+    en: >-
+      The coronet of a noble.
   crest:
     en: >-
-      Above the shield lies the coronet of a noble, issuant from which a helm befitting his degree with mantling Gules doubled Argent.
+      Issuant from the coronet a helm befitting his degree with mantling Gules doubled Argent.
 class: personal
 type: 
   registration: 
     source: Chronicler of Arms of Castile and León
     date: 2021-08-24
+ordinary:
+  arms:
+    - level: 1
+      heading: Quarterly
+    - level: 2
+      heading: Complex
 ---

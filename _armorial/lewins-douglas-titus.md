@@ -20,4 +20,10 @@ blazon:
       en: Thy will be done
 class: personal
 type: grant
+ordinary:
+  arms:
+    - level: 1
+      heading: Bend
+    - level: 2
+      heading: between Trefoils
 ---

@@ -23,4 +23,15 @@ blazon:
       en: Servant and prefect
 class: personal
 type: grant
+ordinary:
+  arms:
+    - level: 1
+      heading: Transport
+    - level: 2
+      heading: Ship
+  crest:
+    - level: 1
+      heading: Human
+    - level: 2
+      heading: Arm
 ---
