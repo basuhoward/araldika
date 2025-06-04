@@ -6,6 +6,7 @@ gem 'kramdown-parser-gfm'
 gem 'rake'
 gem "base64"
 gem "logger"
+gem "bigdecimal"
 
 group :jekyll_plugins do
   gem 'jekyll-paginate'
