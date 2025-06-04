@@ -30,6 +30,17 @@ blazon:
     language: Latin
     translation:
       en: Flying to the heavens
+ordinary:
+  arms:
+    - level: 1
+      heading: Chevron
+    - level: 2
+      heading: per Chevron
+  crest:
+    - level: 1
+      heading: Animal
+    - level: 2
+      heading: Bird
 class: personal
 type: grant
 ordinary:
