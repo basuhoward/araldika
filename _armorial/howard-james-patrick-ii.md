@@ -36,10 +36,10 @@ ordinary:
       heading: Bird
 emblazon:
   full:
-    img: "/assets/img/arms/full/howard-james-patrick-ii.webp"
+    img: "assets/img/arms/full/howard-james-patrick-ii.webp"
     caption: "Credit: [Dr Antonio Salmerón](http://blason.es/)" 
   escutcheon:
-    img: "/assets/img/shields/G0102.svg"
+    img: "assets/img/shields/G0102.svg"
     caption: ""
 class: personal
 type: grant
